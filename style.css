@@ -1,0 +1,336 @@
+/*
+  ========================================
+  General 
+  ========================================
+*/
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+}
+
+
+
+/*
+  ========================================
+  layout 
+  ========================================
+*/
+#main-content {
+  height: 100%;
+  max-width: 85%;
+  margin-left: 20px;
+  margin-top: 25px;
+
+}
+
+header {
+  height: 100%;
+  width: 20%;
+  position: fixed;
+
+}
+
+
+section.bottomsection,
+section.topsection {
+  width: 80%;
+  float: right;
+}
+
+section.bottomsection {
+  height: 55%;
+
+}
+
+section.topsection {
+  height: 45%;
+
+}
+
+
+div.toptwo {
+
+  float: right;
+  width: 35%;
+  height: 100%;
+  padding-left: 15px;
+}
+
+div.topone {
+  width: 65%;
+  float: left;
+  height: 100%;
+
+}
+
+
+/*section.bottom-one div,
+section.bottom-one article,
+section.bottom-one span,
+
+section.bottom-two div,
+section.bottom-two article,
+section.bottom-two span,
+
+section.bottom-three div,
+section.bottom-three article,
+section.bottom-three span {
+  float: left;
+  width: 33.3%;
+}*/
+
+
+/* try*/
+
+section.bottom-one div,
+section.bottom-two div,
+section.bottom-three div {
+  float: left;
+  width: 27% ;
+
+}
+
+section.bottom-one article,
+section.bottom-one span,
+section.bottom-two article,
+section.bottom-two span,
+section.bottom-three article,
+section.bottom-three span {
+  float: left;
+  width: 36.5%;
+}
+
+/*try*/
+
+
+
+br {
+  clear: both;
+  height: 2px;
+  width: 100%;
+}
+
+div.toptwo>section {
+  height: 25%;
+}
+
+
+
+section.bottom-two,
+section.bottom-three {
+
+  border-bottom: 1px solid #777777;
+
+}
+
+/*
+  ========================================
+  Imagine
+  ========================================
+*/
+.mini-logo {
+  width: 30px;
+}
+
+img {
+  width: 75%;
+}
+
+.column-3-img {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 10px;
+}
+
+.search-sign {
+  width: 20px;
+  margin-top: 7px;
+  padding: 1px;
+  position: absolute;
+
+}
+
+li.search {
+  position: relative;
+}
+
+
+.logo {
+  width: 25%;
+}
+
+.activision-img {
+  width: 70%;
+}
+
+.social_funny {
+  width: 70%;
+  margin-left: 15%;
+}
+
+/*
+  ========================================
+  Typography /decoration
+  ========================================
+*/
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+h1,
+h2 {
+  font-weight: 800;
+}
+
+h1 {
+  font-size: 32px;
+  width: 650px;
+  line-height: 1.3;
+}
+
+span {
+  display: block;
+}
+
+h2 {
+  font-size: 19px;
+  width: 300px;
+  line-height: 1.1;
+}
+
+.toptwo section.separationline {
+  border-bottom: 1px solid grey;
+}
+
+.topsection span,
+.bottomsection span {
+  font-weight: 500;
+
+}
+
+/*span 2nd section*/
+section.bottom-one>div>span.dataandtime,
+section.bottom-two>div>span.dataandtime,
+section.bottom-three>div>span.dataandtime {
+  color: grey;
+  width: 100%;
+  font-weight: 300;
+  margin-bottom: 20px;
+
+}
+
+.bottomsection h2 {
+  width: 200px;
+}
+
+
+section.bottom-one>div>span.author,
+section.bottom-two>div>span.author,
+section.bottom-three>div>span.author {
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 15px;
+
+}
+
+
+span.new-section {
+  font-size: 20px;
+  margin: 10px 0;
+  border-bottom: 1px solid grey;
+  padding-bottom: 10px;
+  margin-top: 35px;
+}
+
+/*
+  ========================================
+  nav
+  ========================================
+*/
+
+li {
+  font-weight: 300;
+  color: #777777;
+  font-size: 20px;
+  list-style: none;
+  margin-bottom: 10px;
+  line-height: 30px;
+
+}
+
+.list-heading {
+  color: #fcc008;
+  font-weight: 900;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+li.login {
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+nav {
+  margin-left: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/*
+  ========================================
+  spacing staff
+  ========================================
+*/
+
+.topone span {
+  margin-top: 8px;
+  margin-bottom: 20px;
+
+}
+
+.spacing h2,
+.spacing-img img {
+  margin-top: 10px;
+}
+
+.toptwo span {
+  margin-top: 20px;
+}
+
+
+
+.bottom-one div,
+.bottom-one article,
+.bottom-one span {
+  margin-top: 10px;
+
+}
+
+.bottom-two div,
+.bottom-two article,
+.bottom-two span,
+.bottom-three div,
+.bottom-three article,
+.bottom-three span {
+  margin-top: 25px;
+
+}
+
+
+/*
+  ========================================
+  bottom section
+  ========================================
+*/
+
+article {
+  line-height: 1.8;
+  font-weight: 300;
+  color: #777777;
+}
